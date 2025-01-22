@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+    font-family: "Raleway", serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+/* 
+    font-family: "Quicksand", serif;
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* navbar-start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+}
+nav ul li{
+    list-style: none;
+    font-family: "Quicksand", serif;
+}
+nav ul li:nth-child(1){
+    color: green;
+    font-weight: 700;
+}
+nav ul li:nth-child(2){
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+}
+nav ul li:nth-child(3){
+    color: rgb(0, 47, 255);
+    font-weight: 500;
+}
+nav ul li:nth-child(4){
+    color: rgb(255, 0, 179);
+    font-weight: 500;
+}
+nav .hambargur{
+    display: none;
+}
+nav .school-logo{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.school-logo h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+
+}
+nav button{
+    padding: 10px 60px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: orange;
+    border-radius: 12px;
+    font-family: "Quicksand", serif;
+    border: none;
+    line-height: 30px;
+}
+
+/* navbar-end */
+
+/* student start */
+
+.student{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.student-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.student-left h1{
+    font-size: 3.5rem;
+    font-family: "Quicksand", serif;
+    color: black;
+    font-weight: 700;
+    width: 640px;
+}
+.student-left p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Quicksand", serif;
+    width: 640px;
+
+}
+.student-btn button{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+.student-left .emp{
+    color: orange;
+}
+.student-left .towa{
+    color: rgb(0, 183, 255);
+}
+/* student end */
+
+/* standard start */
+
+.standard-box{
+    padding: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 18px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+} 
+.sbox-1{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(242,202,115,1) 100%);
+
+}
+.sbox-2{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(49, 255, 22) 100%);
+
+}
+.sbox-3{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(111, 80, 252) 100%);
+
+}
+.standard-centre{
+    background-image: url(../styles/assets/bg.png);
+    text-align: center;
+    padding: 50px 0px 80px 0px;
+    font-size: 46px;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+}
+
+.standard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+.standard h1{
+    font-size: 24px;
+    font-family: "Quicksand", serif;
+    color: black;
+    font-weight: 700;
+    padding-top: 34px;
+
+}
+.standard p{
+    padding: 34px 0;
+    color: #808080;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Raleway", serif;
+    width: 286px;
+
+}
+
+.standard button{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    background-color: transparent;
+    border: none;
+}
+.standard-icon{
+    text-align: center;
+    margin: 80px 0px;
+}
+.standard-icon i{
+    padding: 20px 24px;
+    border-radius: 50%;
+    background-color: orange;
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+}
+.standard-box .btn-1{
+    color: red;
+}
+.standard-box .btn-2{
+    color: rgb(47, 0, 255);
+}
+.standard-box .btn-3{
+    color: rgb(204, 0, 255);
+}
+
+/* standard end */
+
+/* stories start */
+
+.stories-section h2, h3{
+    font-family: "Quicksand", serif;
+
+}
+.stories-section h4, p{
+    font-family: "Raleway", serif;
+
+}
+
+.stories-section {
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(225,225,225,0.10),rgba(254, 161, 1,0.30)),url(../styles/assets/bg.png);
+}
+
+.stories-card{
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.stories-main-left .card-text{
+    padding: 38px;
+}
+.stories-section .card-text h2{
+    width: 400px;
+    padding-bottom: 50px;
+}
+.stories-section .card-text p{
+    width: 433px;
+    color: #666666;
+}
+
+.stories-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+}
+.stories-main-left img{
+    width: 100%;
+}
+
+.stories-main-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.stories-main-right .card-text{
+    padding: 34px;
+}
+.stories-main-right h3{
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.stories-section .card-text{
+    position: relative;
+}
+.card-text h4 {
+	padding: 15px 20px;
+	color: white;
+	font-size: 1rem;
+	border-radius: 50px;
+	font-weight: 500;
+	position: absolute;
+	top: -27px;
+	left: 52px;
+}
+.stories-main-right .card-text h4{
+    padding: 10px 20px;
+	color: white;
+	font-size: 1rem;
+	border-radius: 50px;
+	font-weight: 500;
+	position: absolute;
+	top: -26px;
+	left: 30px;
+}
+
+.color-btn1{
+    background-color: red;
+}
+.color-btn2{
+    background-color: rgb(255, 230, 0);
+}
+.color-btn3{
+    background-color: rgb(25, 0, 255);
+}
+.color-btn4{
+    background-color: rgb(0, 255, 0);
+}
+.color-btn5{
+    background-color: aqua;
+}
+
+
+
+
+/* stories End */
+
+
+/* footer-start */
+.footer-all{
+    background-color: #01ACFD;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 145px 0px;
+}
+.footer p{
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    padding-top: 35px;
+
+}
+.footer h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", serif;
+
+}
+.footer-second{
+    font-family: "Quicksand", serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer-second h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-second li{
+    list-style: none;
+    padding: 0px 0px 20px 18px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-thirth ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+.footer-thirth ul li{
+    list-style: none;
+}
+.footer-thirth h1{
+    font-family: "Quicksand", serif;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+/* footer-end */
+
+/* responsive */
+
+
+/* Mobile devices */
+@media (max-width: 576.99px) {
+    .container{
+        width: 95%;
+    }
+    header {
+        border-bottom: 1px solid orange;
+    }
+    nav ul {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+    nav .hambargur{
+        display: block;
+    }
+    nav .hambargur i{
+        font-size: 20px;
+    }
+
+    .school-logo h1{
+        display: none;
+    }
+    .student-responsive{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .student-left h1{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .student-left p {
+        width: auto;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .standard-centre {
+        padding: 28px 0px 33px 0px;
+        font-size: 2rem;
+
+    }
+    .student-responsive .student-right img {
+        width: 96%;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    .student-btn button {
+        font-size: 1rem;
+    }
+    .student-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .standard {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .standard-box {
+        padding: 30px;
+    }
+    .standard-icon{
+        display: none;
+    }
+    .stories-main{
+        grid-template-columns: 1fr;
+    }
+    .stories-main-left{
+        display: none;
+    }
+    .stories-main-right .card-text {
+        padding: 1.6rem;
+    }
+    .stories-main-right h3 {
+        width: auto;
+        font-size: 0.9rem;
+    }
+    .stories-main-right .card-text h4 {
+        padding: 0.5rem 1.25rem;
+        font-size: 0.8rem;
+    }
+    .stories-main-right {
+        gap: 7px;
+    }
+
+    .left-area {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .footer h1 {
+        font-size: 30px;
+        margin-left: 1rem;
+        font-weight: 600;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 70px 0px;
+    }
+    .footer p{
+        width: auto;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .footer-second li {
+        padding: 0rem 0rem 1rem 1.125rem;
+        font-size: 1rem;
+    }
+
+    .footer p, .footer h1, .footer-second ul, .footer-thirth ul {
+        text-align: start;
+    }
+}
+
+/* Tablet devices */
+@media (max-width: 768.99px) {
+    .container{
+        width: 90%;
+    }
+    header {
+        border-bottom: 1px solid orange;
+    }
+    nav ul {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+    nav .hambargur{
+        display: block;
+    }
+    nav .hambargur i{
+        font-size: 20px;
+    }
+
+    .school-logo h1{
+        display: none;
+    }
+    .student-responsive{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .student-left h1{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .standard p{
+        width: auto;
+    }
+    .student-left p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .standard-centre {
+        padding: 80px 0px 33px 0px;
+        font-size: 2rem;
+    }
+    .student-responsive .student-right img {
+        width: 96%;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    .student-btn button {
+        font-size: 1rem;
+    }
+    .student-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .standard {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .standard-box {
+        padding: 30px;
+    }
+    .standard-icon{
+        display: none;
+    }
+    .stories-main{
+        grid-template-columns: 1fr;
+    }
+    .stories-main-left{
+        display: none;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    .stories-main-right .card-text {
+        padding: 2rem;
+    }
+    .stories-main-right h3 {
+        width: auto;
+    }
+    .stories-main-right .card-text h4 {
+        padding: 0.7rem 1.25rem;
+        font-size: 0.8rem;
+    }
+    .stories-main-right {
+        gap: 7px;
+    }
+
+    .left-area {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .footer h1 {
+        font-size: 30px;
+        margin-left: 1rem;
+        font-weight: 600;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 70px 0px;
+    }
+    .footer p{
+        width: auto;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .footer-second li {
+        padding: 0rem 0rem 1rem 1.125rem;
+        font-size: 1rem;
+    }
+
+    .footer p, .footer h1, .footer-second ul, .footer-thirth ul {
+        text-align: start;
+    }
+
+}
+
+/* Larger screens (default styles) */
+@media (min-width: 901px) {
+
+}
+
+
+
+
